@@ -1,0 +1,321 @@
+########## DISCLAIMER ##########
+The information contained within this log file is accurate only
+in relation to this script. While the information provided here might apply to
+other Java applications, there is no guarantee that it will be correct, as each
+Java application has the ability to set different configuration values at the time
+of execution.
+
+
+
+########## SSL TEST RESULT ##########
+Server certificate for www.google.com on port 443 is TRUSTED
+
+
+
+########## HOST CERTIFICATE CHAIN ##########
+Certificate chain downloaded from www.google.com:443 is below, starting with its own.
+These certificates will also be saved to the same area this log file is found.
+
+Certificate 1 Details: CN=www.google.com
+Certificate 1 Issued By: CN=GTS CA 1C3, O=Google Trust Services LLC, C=US
+
+Certificate 2 Details: CN=GTS CA 1C3, O=Google Trust Services LLC, C=US
+Certificate 2 Issued By: CN=GTS Root R1, O=Google Trust Services LLC, C=US
+
+Certificate 3 Details: CN=GTS Root R1, O=Google Trust Services LLC, C=US
+Certificate 3 Issued By: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+
+
+
+########## JAVA RUNTIME VARIABLES ##########
+jave.home = C:\Program Files\Java\jre1.8.0_341
+
+java.version = 1.8.0_341
+
+user.name = David Tran
+
+
+
+########## JAVA TRUST MANAGER DETAILS ##########
+Possible location of your cacerts file = C:\Program Files\Java\jre1.8.0_341\lib\security
+
+Note: If a jssecacerts file is found in the same folder where your cacerts
+file is found, then Java will use the jssecacerts file. Be sure you are updating
+the correct file.
+Documenation regarding Java's logic on this:
+https://stackoverflow.com/questions/5709392/why-does-java-have-both-the-cacerts-and-jssecacerts-files
+https://docs.oracle.com/javase/8/docs/technotes/guides/security/jsse/JSSERefGuide.html#X509TrustManager
+
+The certificates found in Java's database of trusted certificates are detailed below
+and have been saved to the same area this log file is found.
+
+Certificate 1 Details: CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+Certificate 1 Issued By: CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+
+Certificate 2 Details: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+Certificate 2 Issued By: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+
+Certificate 3 Details: CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+Certificate 3 Issued By: CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+
+Certificate 4 Details: CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+Certificate 4 Issued By: CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+
+Certificate 5 Details: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+Certificate 5 Issued By: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+
+Certificate 6 Details: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+Certificate 6 Issued By: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+
+Certificate 7 Details: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 7 Issued By: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 8 Details: CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+Certificate 8 Issued By: CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+
+Certificate 9 Details: CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+Certificate 9 Issued By: CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+
+Certificate 10 Details: CN=TeliaSonera Root CA v1, O=TeliaSonera
+Certificate 10 Issued By: CN=TeliaSonera Root CA v1, O=TeliaSonera
+
+Certificate 11 Details: CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 11 Issued By: CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 12 Details: CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+Certificate 12 Issued By: CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+
+Certificate 13 Details: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Certificate 13 Issued By: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+
+Certificate 14 Details: CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+Certificate 14 Issued By: CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+
+Certificate 15 Details: CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+Certificate 15 Issued By: CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+
+Certificate 16 Details: CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Certificate 16 Issued By: CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+
+Certificate 17 Details: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+Certificate 17 Issued By: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+
+Certificate 18 Details: OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+Certificate 18 Issued By: OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+
+Certificate 19 Details: CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 19 Issued By: CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 20 Details: OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+Certificate 20 Issued By: OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+
+Certificate 21 Details: CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+Certificate 21 Issued By: CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+
+Certificate 22 Details: CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US
+Certificate 22 Issued By: CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US
+
+Certificate 23 Details: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6
+Certificate 23 Issued By: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6
+
+Certificate 24 Details: CN=Amazon Root CA 4, O=Amazon, C=US
+Certificate 24 Issued By: CN=Amazon Root CA 4, O=Amazon, C=US
+
+Certificate 25 Details: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+Certificate 25 Issued By: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+
+Certificate 26 Details: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+Certificate 26 Issued By: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+
+Certificate 27 Details: CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+Certificate 27 Issued By: CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+
+Certificate 28 Details: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+Certificate 28 Issued By: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+
+Certificate 29 Details: CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+Certificate 29 Issued By: CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+
+Certificate 30 Details: CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+Certificate 30 Issued By: CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+
+Certificate 31 Details: CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 31 Issued By: CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 32 Details: CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+Certificate 32 Issued By: CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+
+Certificate 33 Details: CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+Certificate 33 Issued By: CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+
+Certificate 34 Details: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+Certificate 34 Issued By: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+
+Certificate 35 Details: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+Certificate 35 Issued By: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+
+Certificate 36 Details: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+Certificate 36 Issued By: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+
+Certificate 37 Details: CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+Certificate 37 Issued By: CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+
+Certificate 38 Details: CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+Certificate 38 Issued By: CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+
+Certificate 39 Details: CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+Certificate 39 Issued By: CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+
+Certificate 40 Details: CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+Certificate 40 Issued By: CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+
+Certificate 41 Details: CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+Certificate 41 Issued By: CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+
+Certificate 42 Details: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+Certificate 42 Issued By: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+
+Certificate 43 Details: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 43 Issued By: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 44 Details: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Certificate 44 Issued By: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+
+Certificate 45 Details: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+Certificate 45 Issued By: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+
+Certificate 46 Details: CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+Certificate 46 Issued By: CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+
+Certificate 47 Details: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+Certificate 47 Issued By: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+
+Certificate 48 Details: CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+Certificate 48 Issued By: CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+
+Certificate 49 Details: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+Certificate 49 Issued By: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+
+Certificate 50 Details: CN=Amazon Root CA 3, O=Amazon, C=US
+Certificate 50 Issued By: CN=Amazon Root CA 3, O=Amazon, C=US
+
+Certificate 51 Details: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+Certificate 51 Issued By: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+
+Certificate 52 Details: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+Certificate 52 Issued By: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+
+Certificate 53 Details: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+Certificate 53 Issued By: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+
+Certificate 54 Details: CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+Certificate 54 Issued By: CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+
+Certificate 55 Details: CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+Certificate 55 Issued By: CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+
+Certificate 56 Details: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Certificate 56 Issued By: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+
+Certificate 57 Details: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+Certificate 57 Issued By: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+
+Certificate 58 Details: CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+Certificate 58 Issued By: CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+
+Certificate 59 Details: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Certificate 59 Issued By: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+
+Certificate 60 Details: CN=AffirmTrust Networking, O=AffirmTrust, C=US
+Certificate 60 Issued By: CN=AffirmTrust Networking, O=AffirmTrust, C=US
+
+Certificate 61 Details: CN=AffirmTrust Premium, O=AffirmTrust, C=US
+Certificate 61 Issued By: CN=AffirmTrust Premium, O=AffirmTrust, C=US
+
+Certificate 62 Details: CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+Certificate 62 Issued By: CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+
+Certificate 63 Details: CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+Certificate 63 Issued By: CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+
+Certificate 64 Details: CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+Certificate 64 Issued By: CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+
+Certificate 65 Details: CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+Certificate 65 Issued By: CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+
+Certificate 66 Details: CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+Certificate 66 Issued By: CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+
+Certificate 67 Details: CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU
+Certificate 67 Issued By: CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU
+
+Certificate 68 Details: CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Certificate 68 Issued By: CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+
+Certificate 69 Details: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Certificate 69 Issued By: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+
+Certificate 70 Details: CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US
+Certificate 70 Issued By: CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US
+
+Certificate 71 Details: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+Certificate 71 Issued By: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+
+Certificate 72 Details: CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US
+Certificate 72 Issued By: CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US
+
+Certificate 73 Details: CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+Certificate 73 Issued By: CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+
+Certificate 74 Details: CN=Amazon Root CA 1, O=Amazon, C=US
+Certificate 74 Issued By: CN=Amazon Root CA 1, O=Amazon, C=US
+
+Certificate 75 Details: CN=Amazon Root CA 2, O=Amazon, C=US
+Certificate 75 Issued By: CN=Amazon Root CA 2, O=Amazon, C=US
+
+Certificate 76 Details: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 76 Issued By: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 77 Details: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+Certificate 77 Issued By: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+
+Certificate 78 Details: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+Certificate 78 Issued By: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+
+Certificate 79 Details: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+Certificate 79 Issued By: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+
+Certificate 80 Details: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Certificate 80 Issued By: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+
+Certificate 81 Details: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Certificate 81 Issued By: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+
+Certificate 82 Details: CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+Certificate 82 Issued By: CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+
+Certificate 83 Details: CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+Certificate 83 Issued By: CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+
+Certificate 84 Details: CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 84 Issued By: CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 85 Details: CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+Certificate 85 Issued By: CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+
+Certificate 86 Details: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+Certificate 86 Issued By: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+
+Certificate 87 Details: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Certificate 87 Issued By: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+
+Certificate 88 Details: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+Certificate 88 Issued By: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+
+Certificate 89 Details: CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+Certificate 89 Issued By: CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Certificate 90 Details: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+Certificate 90 Issued By: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+
