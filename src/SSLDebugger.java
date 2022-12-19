@@ -27,7 +27,7 @@ import javax.net.ssl.X509TrustManager;
 class SSLDebugger {
 	public static void main(String[] args) throws Exception {
 		//Set testMode to true to use default host and port instead of user-provided values
-		boolean testMode = true;
+		boolean testMode = false;
 		String host = "untrusted-root.badssl.com";
 		int port = 443;
 		
