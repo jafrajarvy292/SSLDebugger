@@ -25,10 +25,9 @@ import javax.net.ssl.X509TrustManager;
  *
  */
 class SSLDebugger {
-
 	public static void main(String[] args) throws Exception {
 		//Set testMode to true to use default host and port instead of user-provided values
-		boolean testMode = false;
+		boolean testMode = true;
 		String host = "untrusted-root.badssl.com";
 		int port = 443;
 		
@@ -55,8 +54,8 @@ class SSLDebugger {
 			host = args[0];
 		}
 		
-		//Light validation of host to check that user didn't the protocol portion
-		Pattern hostPattern = Pattern.compile("://");
+		//Validation of host to check that user didn't include the protocol portion or path
+		Pattern hostPattern = Pattern.compile("/");
 		Matcher hostMatcher = hostPattern.matcher(host);
 		if (hostMatcher.find() == true) {
 			System.out.println("Invalid host. Please include only the domain that needs to be checked.");
@@ -225,7 +224,6 @@ class SSLDebugger {
 	 * @return
 	 */
 	public static ArrayList<X509Certificate> getJavaTrustedCerts() {
-		
 		try {
 			ArrayList<X509Certificate> finalCertificateArray = new ArrayList<X509Certificate>();
 			TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
@@ -252,7 +250,7 @@ class SSLDebugger {
 	 * Tests a host and port against the default trust manager.
 	 * @param host
 	 * @param port
-	 * @return Returns true if peer is trusted, false if not
+	 * @return Returns true if peer is trusted, else throws exception
 	 * @throws Exception
 	 */
 	public static boolean testDefaultTM(String host, int port) throws Exception {
