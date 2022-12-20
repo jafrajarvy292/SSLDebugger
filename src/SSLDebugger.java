@@ -63,6 +63,8 @@ class SSLDebugger {
 			return;
 		}
 		
+		System.out.println("Test is starting...");
+		
 		logFolderName = generateLogFolderName(host);
 		logFolder = new File(logFolderName);
 		
@@ -111,12 +113,17 @@ class SSLDebugger {
 			isCertTrusted = testDefaultTM(host, port);
 			//Print test results to log
 			if (isCertTrusted == true) {
-				logFileWriter.write("Server certificate for " + host + " on port " + port + " is TRUSTED");
-			} 
+				logFileWriter.write("TRUSTED - Server certificate for " + host + " on port " + port + " is TRUSTED");
+				System.out.println("TRUSTED - Server certificate for " + host + " on port " + port + " is TRUSTED");
+			}
 		} catch (Exception e) {
-			logFileWriter.write("Server certificate for " + host + " on port " + port + " is NOT TRUSTED for reason:");
+			logFileWriter.write("NOT TRUSTED - Server certificate for " + host + " on port " + port + " is NOT TRUSTED for reason:");
 			logFileWriter.write(newLine);
 			logFileWriter.write(e.getMessage());
+			System.out.println("NOT TRUSTED - Server certificate for " + host + " on port " + port + " is NOT TRUSTED for reason:");
+			System.out.println(e.getMessage());
+		} finally {
+			System.out.println();
 		}
 		
 		//Output details of host's certificate chain and save to disk
@@ -216,6 +223,10 @@ class SSLDebugger {
 		
 		//Close log file
 		logFileWriter.close();
+		
+		System.out.println("Relevant logs have been stored to the following folder:");
+		System.out.println(System.getProperty("user.dir") + fileSeparator + logFolderName);
+		System.out.println("Test has ended.");
 	}
 	
 	/**
